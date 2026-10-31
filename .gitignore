@@ -1,0 +1,15 @@
+# Environment secrets
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# Streamlit session / local storage
+.streamlit/secrets.toml
